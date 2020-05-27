@@ -1,0 +1,175 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Arimo');
+/*Блоки менюшек*/
+.top-menu {
+  position: relative;
+  background: rgba(34,34,34,.2);
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+	width: 100%; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+    background: rgba(34,34,34,.2); /* Цвет колонок */
+}
+
+.class-left, .class-right, .class-center{
+ float: left; width: 99.5%; margin-right: 60%; padding: 5px; color: white; font-family: Trebuchet MS, sans-serif; background: rgba(34,34,34,.2);
+}
+
+.class-left {margin-bottom: 10px;}
+.class-center {margin-bottom: 10px;}
+.class-right {margin-top: 15px; margin-bottom: 10px;}
+
+.class-statistic {
+	float: left; width: 100%; background: rgba(34,34,34,.2); font-family: Trebuchet MS, sans-serif; color: white; text-align: center;
+}
+
+
+
+
+
+.ct-series-a .ct-bar {
+  /* Colour of your bars */
+  stroke: red;
+  /* The width of your bars */
+  stroke-width: 20px;
+  /* Yes! Dashed bars! */
+  stroke-dasharray: 20px;
+  /* Maybe you like round corners on your bars? */
+  stroke-linecap: round;
+}
+
+
+/* Используйте этот селектор для переопределения стиля линейного графика */
+.ct-series-a .ct-line {
+  /* Цвет линии серии */
+  stroke: red;
+  /* Толщина линии */
+  stroke-width: 5px;
+  /* Пунктирная линия по шаблону */
+  stroke-dasharray: 10px 20px;
+}
+
+/* Этот селектор перкрывает стиль точек линейного графика */
+.ct-series-a .ct-point {
+  /* Цвет точек */
+  stroke: red;
+  /* Размер точек */
+  stroke-width: 20px;
+  /* Сделать точки квадратами */
+  stroke-linecap: square;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-item {
+  float: left; 
+  margin-left: 32.7%;
+  text-decoration: none;
+  display: block;
+  line-height: 80px;
+  padding: 0 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: white;
+  transition: .3s linear;}
+  
+.right-item {
+  float: right;
+  margin-right: 25%;
+  text-decoration: none;
+  display: block;
+  line-height: 80px;
+  padding: 0 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: white;
+  transition: .3s linear;
+  }
+  
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.menu-main img {
+  height: 80px;
+  width: 130px;
+}
+
+
+@media (max-width: 830px) {
+.menu-main {
+  padding-top: 90px;
+  text-align: center;
+}
+
+.menu-main li {
+  float: none;
+  display: inline-block;
+}
+
+@media (max-width: 630px) {
+.menu-main li {display: block;}
+}
+
+/*input[type=text] {
+	width: 84%;
+	font-size: 18px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	border-radius: 8px;
+	font-family: Trebuchet MS, sans-serif;
+}*/
+
+label {
+	font-family: Trebuchet MS, sans-serif;
+	bottom:1px;
+	font-size: 18px;
+}
+
+.button {
+	width:110px;
+    height:30px;
+    margin-left:30%;
+	margin-top:5%;
+    display:block;
+    background-color:gray;
+    color:white;
+    border: none;
+    outline:none;
+} 
